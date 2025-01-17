@@ -11,7 +11,9 @@ namespace Module_3
         static void Main(string[] args)
         {
             string myName = "Ivan";
-            Console.WriteLine(myName);
+            int myAge = 25;
+            short myShoeSize = 44;
+            Console.WriteLine("My name is {0},\nMy age is {1},\nMy shoe size is {2}", myName, myAge, myShoeSize);
 
             Console.ReadKey();
         }
